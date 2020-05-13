@@ -10,7 +10,7 @@
     <issue>https://github.com/shadrach-tayo/cordova-plugin-playinstall-referrer/issues</issue>
 
     <js-module name="GooglePlayInstallReferrer" src="www/GooglePlayInstallReferrer.js">
-        <clobbers target="cordova.plugins.googlePlayInstallReferrer" />
+        <clobbers target="cordova.plugins.playInstallReferrer" />
     </js-module>
 
     <engines>
