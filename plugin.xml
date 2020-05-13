@@ -3,6 +3,12 @@
     xmlns="http://apache.org/cordova/ns/plugins/1.0" 
     xmlns:android="http://schemas.android.com/apk/res/android">
     <name>GooglePlayInstallReferrer</name>
+    <description>An Android Cordova plugin that allows users to capture google play install referrer</description>
+    <license>MIT</license>
+    <keywords>cordova,android,referrer,install,install-referrer</keywords>
+    <repo>https://github.com/shadrach-tayo/cordova-plugin-playinstall-referrer.git</repo>
+    <issue>https://github.com/shadrach-tayo/cordova-plugin-playinstall-referrer/issues</issue>
+
     <js-module name="GooglePlayInstallReferrer" src="www/GooglePlayInstallReferrer.js">
         <clobbers target="cordova.plugins.GooglePlayInstallReferrer" />
     </js-module>
