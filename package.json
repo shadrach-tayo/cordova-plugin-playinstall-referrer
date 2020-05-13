@@ -1,0 +1,31 @@
+{
+  "name": "cordova-plugin-playinstall-referrer",
+  "version": "0.0.1",
+  "description": "An Android Cordova plugin that allows users to capture google play install referrer",
+  "cordova": {
+    "id": "cordova-plugin-playinstall-referrer",
+    "platforms": [
+      "android"
+    ]
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/shadrach-tayo/cordova-plugin-GPlay-install-referrer.git"
+  },
+  "keywords": [
+    "ecosystem:cordova",
+    "cordova-android"
+  ],
+  "engines": [
+    {
+      "name": "cordova",
+      "version": ">=3.0.0"
+    }
+  ],
+  "author": "Shadrach oloyede",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/shadrach-tayo/cordova-plugin-GPlay-install-referrer/issues"
+  },
+  "homepage": "https://github.com/shadrach-tayo/cordova-plugin-GPlay-install-referrer#readme"
+}
