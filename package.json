@@ -10,22 +10,23 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/shadrach-tayo/cordova-plugin-GPlay-install-referrer.git"
+    "url": "git+https://github.com/shadrach-tayo/cordova-plugin-playinstall-referrer.git"
   },
   "keywords": [
     "ecosystem:cordova",
-    "cordova-android"
+    "cordova-android",
+    "Referrer",
+    "Google Play",
+    "Install Referrer"
   ],
-  "engines": [
-    {
-      "name": "cordova",
-      "version": ">=3.0.0"
-    }
-  ],
+  "engines": {
+    "name": "cordova",
+    "version": ">=3.0.0"
+  },
   "author": "Shadrach oloyede",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/shadrach-tayo/cordova-plugin-GPlay-install-referrer/issues"
+    "url": "https://github.com/shadrach-tayo/cordova-plugin-playinstall-referrer/issues"
   },
-  "homepage": "https://github.com/shadrach-tayo/cordova-plugin-GPlay-install-referrer#readme"
+  "homepage": "https://github.com/shadrach-tayo/cordova-plugin-playinstall-referrer#readme"
 }
