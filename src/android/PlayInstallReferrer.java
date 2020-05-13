@@ -17,7 +17,7 @@ import android.preference.PreferenceManager;
 import org.json.JSONArray;
 import org.json.JSONException;
 
-public class GooglePlayReferrer extends CordovaPlugin {
+public class PlayInstallReferrer extends CordovaPlugin {
     private static final String LOG_TAG = "GPlayInstallReferrer";
     Context context;
     InstallReferrerClient referrerClient = null;

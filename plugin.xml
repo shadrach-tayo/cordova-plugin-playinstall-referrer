@@ -10,7 +10,7 @@
     <issue>https://github.com/shadrach-tayo/cordova-plugin-playinstall-referrer/issues</issue>
 
     <js-module name="GooglePlayInstallReferrer" src="www/GooglePlayInstallReferrer.js">
-        <clobbers target="cordova.plugins.GooglePlayInstallReferrer" />
+        <clobbers target="cordova.plugins.googlePlayInstallReferrer" />
     </js-module>
 
     <engines>
@@ -20,11 +20,11 @@
 
     <platform name="android">
         <config-file parent="/*" target="res/xml/config.xml">
-            <feature name="GooglePlayInstallReferrer">
-                <param name="android-package" value="com.shadrach.cordova.plugin.GooglePlayInstallReferrer" />
+            <feature name="PlayInstallReferrer">
+                <param name="android-package" value="com.shadrach.cordova.plugin.PlayInstallReferrer" />
             </feature>
         </config-file>
         <config-file parent="/*" target="AndroidManifest.xml"></config-file>
-        <source-file src="src/android/GooglePlayInstallReferrer.java" target-dir="src/cordova-plugin-playinstall-referrer/GooglePlayInstallReferrer" />
+        <source-file src="src/android/PlayInstallReferrer.java" target-dir="src/cordova-plugin-playinstall-referrer/PlayInstallReferrer" />
     </platform>
 </plugin>
