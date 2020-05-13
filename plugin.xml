@@ -24,6 +24,9 @@
                 <param name="android-package" value="com.shadrach.cordova.plugin.PlayInstallReferrer" />
             </feature>
         </config-file>
+        <framework src="com.google.firebase:firebase-analytics:$FIREBASE_ANALYTICS_VERSION" />
+        <framework src="com.android.installreferrer:installreferrer:1.1.2" />
+
         <config-file parent="/*" target="AndroidManifest.xml"></config-file>
         <source-file src="src/android/PlayInstallReferrer.java" target-dir="src/cordova-plugin-playinstall-referrer/PlayInstallReferrer" />
     </platform>
